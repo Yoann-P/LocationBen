@@ -7,8 +7,8 @@ const Avis = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12">
-            <div className="review-sub">People Love Us</div>
-            <div className="review-heading">Our Happy Clients</div>
+            <div className="review-sub">nos différents partenaires</div>
+            <div className="review-heading">Nos clients satisfaits</div>
           </div>
           <div className="col-md-12 col-lg-12  order-1 order-md-2">
             <div className="testimonial-carousel">

@@ -92,14 +92,16 @@ a {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-p1:last-child {
+.p-1 {
   margin-bottom: 0 !important;
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
-p2:last-child {
+.p-2 {
   margin-bottom: 0 !important;
   font-family: "Roboto", sans-serif;
-  color: #f4620f;
+  color: #00c500;
+  display: block;
 }
 
 .fa,
@@ -314,7 +316,8 @@ a.image {
 header a.logo {
   max-width: 130px;
   vertical-align: sub;
-  color: #f4620f;
+  color: #f46110;
+  font-size: 700;
 }
 
 .navbar-top-default {
@@ -327,7 +330,21 @@ header a.logo {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
-  background: transparent;
+  background: #ffcd06;
+}
+
+.header-bottom {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background: rgb(11, 4, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(11, 4, 0, 0.7049413515406162) 0%,
+    rgba(255, 255, 255, 0.0214679621848739) 100%
+  );
 }
 
 .header-appear .navbar-top-default {
@@ -753,7 +770,7 @@ header .nav-box-round .navbar-nav .nav-link:hover {
 } */
 
 .bg-accueil {
-  background-image: url("../../assets/images/chantier.jpeg");
+  background-image: url("../../assets/images/chargement.jpeg");
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -3149,4 +3166,7 @@ textarea:focus {
     list-style: none;
     margin-left: 0;
   }
+  /* #megaone {
+    display: none;
+  } */
 }

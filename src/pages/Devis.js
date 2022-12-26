@@ -59,7 +59,7 @@ const Devis = () => {
                   defaultValue={""}
                 />
                 <a
-                  href="javascript:void(0);"
+                  href="/#"
                   className="btn btn-medium btn-rounded pink-and-yellow-1-btn rounded-pill w-100 contact_btn main-font"
                 >
                   Obtenir Devis Gratuit
