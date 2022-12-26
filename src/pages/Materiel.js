@@ -96,7 +96,7 @@ const Materiel = () => {
                     <span className="p-text">Nous avons loué plus de</span>
                     <h4 className="p-num">14890 bennes</h4>
                     <span className="p-text">
-                      dans tout les Hauts-de-France et autant de clients
+                      et autant de clients
                       satisfaits
                     </span>
                   </div>

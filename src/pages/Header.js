@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="navbar navbar-top-default navbar-expand-lg  nav-box-round navbar-simple nav-line">
         <div className="container">
           <a href="#home" title="Logo" className="logo">
-            DENN LOCATION
+            LOCATION BENNES
           </a>
 
           <div className="collapse navbar-collapse " id="megaone">

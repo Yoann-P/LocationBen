@@ -5,10 +5,10 @@ const Devis = () => {
     <section className="bg-black contact-us-sec" id="devis">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-3 text-center">
+          <div className="col-12 col-md-3 d-none d-lg-block text-center">
             <div className="user-img">
               <a href="#home">
-                <img src="assets/images/truck2.jpeg" alt="img" />
+                <img className="img-fluid" src="assets/images/truck2.jpeg" alt="img" />
               </a>
             </div>
           </div>
